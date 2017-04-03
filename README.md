@@ -1,6 +1,6 @@
 # chess-ai-techniques
-trying out different AI techniques on chess game
-using [chessboardjs](https://github.com/oakmac/chessboardjs/) (for board and piece simulation) and [chessjs](https://github.com/jhlywa/chess.js) (for move and state validaions)
++ Trying out different AI techniques on chess game
++ Using [chessboardjs](https://github.com/oakmac/chessboardjs/) (for board and piece simulation) and [chessjs](https://github.com/jhlywa/chess.js) (for move and state validaions)
 ### ToDo
 #### Search Space
 + MinMax
@@ -10,7 +10,7 @@ using [chessboardjs](https://github.com/oakmac/chessboardjs/) (for board and pie
 + Machine learning (Techniques possibly)
 + ...
 
-#### Chess variations
+#### Chess variants
 + Knight's tour
 + N-queens
 + ...
