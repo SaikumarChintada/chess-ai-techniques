@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Chess</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/chessboard-0.3.0.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/chess.min.js"></script>
+	<script type="text/javascript" src="js/chessboard-0.3.0.min.js"></script>
+</head>
+<body>
+	<div id="board" style="width: 400px"></div>
+	<input type="button" id="startBtn" value="Start" />
+	<input type="button" id="clearBtn" value="Clear" />
+	<input type="button" id="resetBtn" value="Reset" />
+
+	<p>Status: <span id="status"></span></p>
+	<p>FEN: <span id="fen"></span></p>
+	<p>PGN: <span id="pgn"></span></p>
+
+
+	<!-- 
+		board.(position)
+		================
+		board.start(t/f)
+		board.position(FEN_string,t/f)
+		board.position({pos_object},t/f)
+		
+		board.clear
+
+		board.move('d2-d4', 'g8-f6');
+		config : onChange 
+
+
+	 -->
+</body>
+<script src="js/main.js"></script>
+</html>
